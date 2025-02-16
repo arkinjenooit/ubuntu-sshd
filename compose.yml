@@ -1,6 +1,7 @@
 
 services:
   ubuntu-sshd:
+    container_name: ggmm-sshd
     #image: my-ubuntu-sshd:latest
     build: .
     ports:
